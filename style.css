@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+   color: #000500;
+}
+
+.card {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("temtem.jpg");
+    background-size: cover;
+    max-width: 250vh;
+}
+
+.div {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #49a078;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #1f2421;
+}
+
+.button:hover {
+    background-color: #216869;
+}
+
+.button:active {
+    background-color: #216869;
+    box-shadow: 0 5px #1f2421;
+    transform: translateY(4px);
+}
+
+.img {
+    width: 150px;
+    gap: 20px;
+}
