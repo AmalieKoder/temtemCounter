@@ -50,7 +50,32 @@ h1 {
     transform: translateY(4px);
 }
 
-.img {
-    width: 150px;
-    gap: 20px;
+
+.imgPlat {
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
 }
+
+.imgBrocoo {
+    width: 150px;
+    position: absolute;
+    top: 25%;
+    left: 65%;
+}
+
+.imgGanki {
+    width: 150px;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
+.imgMimit {
+    width: 150px;
+    position: absolute;
+    top: 18%;
+    left: 46%;
+}
+
